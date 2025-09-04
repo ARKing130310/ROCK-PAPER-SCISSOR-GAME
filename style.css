@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding:0%;
+}
+h1{
+    height: 150px;
+    width: 100%;
+    font-size: 40px;
+    font-family: sans-serif;
+    background-color:black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choices{
+    height: 250px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+img{
+  height: 200px;
+  width: 200px; 
+  border-radius: 50%; 
+}
+img:hover{
+    border: 4px solid black;
+}
+.score-board{
+    height: 150px;
+    width: 100%;
+    font-size: 40px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px; 
+}
+.zero1{
+    padding-left: 25px;
+    font-size: 4rem;
+}
+.zero2{
+    padding-left: 75px;
+    font-size: 4rem;
+}
+
+.result {
+     margin-top: 5rem; 
+     display: flex;
+     justify-content: center;
+}
+.result p {
+    height: 30px;
+    color: white;
+    font-size: 2rem;
+    font-family: sans-serif;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
+    padding: 1rem; 
+    border-radius: 20px;
+} 
